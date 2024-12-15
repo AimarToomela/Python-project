@@ -55,7 +55,7 @@ ROOT_URLCONF = 'hollymovies.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['viewer/My_HTML'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
